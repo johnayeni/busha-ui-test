@@ -1,0 +1,46 @@
+$green: #67c462;
+$light-green: rgba(103, 196, 98, 0.12);
+$red: #de3618;
+$cream: #f7f6f3;
+$black: #172b4d;
+$light-black: #42526e;
+
+@font-face {
+  font-family: 'Booster Medium';
+  src: url('../fonts/Booster Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Booster Bold';
+  src: url('../fonts/Booster Bold.ttf');
+}
+
+body {
+  margin: 0;
+  font-family: 'Booster Medium', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Booster Bold', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bold {
+  font-family: 'Booster Bold', sans-serif;
+}
+
+.float-right {
+  float: right;
+}
+
+.light {
+  color: $light-black;
+}
