@@ -30,7 +30,7 @@ export default function(props) {
         <h2>{props.title || 'Header'}</h2>
       </HeaderTitle>
       <Switch text="Test Mode" />
-      <Notification />
+      <Notification number="0" />
       <Avatar name="Oluwatobi Mayowa" />
     </Header>
   );

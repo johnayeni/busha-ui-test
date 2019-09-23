@@ -13,6 +13,7 @@ const Notification = styled.div`
     min-height: 10px;
     line-height: 10px;
     padding: 5px;
+    text-align: center;
     color: #fff;
     background-color: ${Colors.red};
     font-size: 10px;
@@ -20,7 +21,7 @@ const Notification = styled.div`
     border: none;
     ${(props) =>
       css`
-        content: ${props.number};
+        content: '${props.number}';
       `}
   }
 `;
